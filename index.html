@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="css/style.css">
+         <title>lecture-3</title>
+    </head>
+    <body>
+        <script>
+            var age = prompt( "Сколько Вам лет?" );
+            var enteredAge = age % 100;
+            var enteredAgeTwo = age % 10;
+            if ( enteredAge >= 5 && enteredAge <= 20 ) {
+                alert ( "Вам " + age + " лет" );
+            }
+            else if ( enteredAgeTwo >= 2 && enteredAgeTwo <= 4 ) {
+                alert ("Вам " + age + " года");
+            }
+            else if ( enteredAgeTwo == 1 ) {
+                alert( "Вам " + age + " год" );
+            } else { 
+                alert ( "Вам " + age + " лет" );
+            }
+        </script>
+    </body>
+</html>
